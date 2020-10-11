@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+
+        <style>
+
+            .top{
+                position: absolute;
+                right: 0;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 65px;
+                margin: auto;
+                background-color: rgb(243, 240, 240);
+
+            }
+
+            .google{
+                position: absolute;
+                top: 10px;
+                left: 11px;
+            }
+
+
+            .second{
+                position: absolute;
+                top: 75px;
+                font-family: Arial, sans-serif ;
+                color: rgb(211, 35, 35);
+                font-size: larger;
+                border-bottom: 1px solid rgb(236, 236, 236);
+                width: 100%;
+                
+                
+                
+            }
+            .adv{
+                margin-left: 33px;
+                margin-bottom: 27px;
+            }
+
+
+            .main{
+                position: absolute;
+                margin-top: inherit;
+                top: 170px;
+                left: 46px;
+                height: 200px;
+                font-family: Arial, sans-serif;
+                width: 900px;
+            }
+
+
+            .find{
+                font-size: large;
+                font-weight: lighter;
+                position: absolute;
+
+            }
+
+            .line{
+                font-size: small;
+                font-weight: lighter;
+                position: absolute;
+                top: 60px;
+            }
+
+
+            .box{
+                position: absolute;
+                left: 180px;
+                top: 60px;
+              
+            }
+
+
+            .qwerty{
+                height: 19px;
+                width: 565px;
+                border-radius: 1px;
+                border: 1px solid rgb(207, 207, 207);
+
+            }
+
+
+            .qwerty:focus{
+                outline: none;
+                border-color: rgb(104, 157, 255);
+                box-shadow: 0 1px 4px 0 blanchedalmond;
+            }
+
+
+            .back{
+                position: absolute;
+                right: 25px;
+                top: 20px;
+                text-decoration: underline;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+            }
+
+
+            .back:hover{
+                box-shadow: 0 1px 4px 0 grey;
+                border-color: white;
+                color: black;
+            }
+
+
+            .bottom{
+                position: absolute;
+                bottom: -50px;
+                right:15%;
+            }
+
+            .button{
+                border: none;
+                padding:0 12px;
+                height: 32px;
+                width: 110%;
+                background-color: rgb(74, 144, 248);
+                font: small;
+                color: white;
+                font-weight: bolder;
+                font-size: 11.5px;
+                border-radius: 2px;
+            }
+
+            .button:hover{
+                box-shadow: 0 1px 4px 0 grey;
+            }
+
+            .button:focus{
+                outline: none;
+            }
+
+            
+
+
+           
+
+        </style>
+    </head>
+
+<body>
+    
+    <div class="top">
+        <img src="google_logo.png" alt="Google" height = "40px" class="google">
+            <a href="google.html" class="back">Go back to home page</a>
+    </div>
+
+    <div class="second">
+        <p class="adv">Advanced Search</p>
+    </div>
+
+    <div class="main">
+        <div class="find">
+           <p>Find pages with...</p> 
+        </div>
+
+
+        
+        <div class="line">
+          <hr color="white">
+          <p>all these words:</p>
+          <hr color="white">
+          <p>this exact word or phrase:</p>
+          <hr color="white">
+          <p>any of these words:</p>
+          <hr color="white">
+          <p>none of these words:</p> 
+        </div>
+
+
+        <div class="box">
+            <form action="https://google.com/search">
+                    <hr color="white">
+                    <input type="text" class="qwerty" name="as_q">
+                    <hr color="white" >
+                    <input type="text" class="qwerty" name="as_epq">
+                    <hr color="white" >
+                    <input type="text" class="qwerty" name="as_oq">
+                    <hr color="white">
+                    <input type="text" class="qwerty" name="as_eq">
+
+
+                        <div class="bottom">
+                            <input type="submit" value="Advanced Search" class="button">
+                        </div>
+                </form>
+          </div>        
+
+
+    </div>
+
+
+
+</body>    
+
+</html>

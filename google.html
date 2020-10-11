@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>
+       
+            .search{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 39px;
+                width: 582px;
+                border-radius: 25px;
+                padding-right: 12px;
+                border: solid #cccccc;
+                border-width: thin;
+                
+            
+            }
+
+            .search:hover{
+                box-shadow: 0 1px 4px 0 grey;
+                border-color: white; }
+
+
+            
+            .button{
+                 border: none;
+                 border-radius: 4px;
+                 padding: 0 12px;
+                 font-family: Arial, sans-serif;
+                 color: rgb(99, 94, 94);
+                 font-size: 14px;
+                 cursor: pointer;
+                 text-align: center;
+                 margin: 11px 4px;
+                 height: 36px;
+                 line-height: 2px;
+                 min-width: 54px;
+                 
+            }
+            .button:hover{
+                box-shadow: 0 1px 4px 0 grey;
+                border-color: white;
+                color: black;
+            }
+            .center{
+                padding-top: 14px;
+            }
+
+
+            .logo{
+                padding-top: 127px;
+            }
+
+
+            .box{
+                padding-top: 14px;      
+                font-family: Arial, sans-serif;          
+            }
+            .first{
+                  display: flex;
+                  align-items: center;
+                  padding-right: 13px;
+                  margin-top: -5px;
+            }
+            .second{
+                margin: auto;
+            }
+            .third{
+                    margin-top: 3px;
+                    color: #9aa0a6;
+                    height: 20px;
+                    width: 20px;
+            }
+
+            
+            input:focus{
+                outline: none;
+                        }
+
+            .topright{
+                position: absolute;
+                top: 10px;
+                right: 15px;
+                font-family: Arial, sans-serif;
+                font-size:12px ;
+                
+
+            }
+
+
+            .images{
+                position: fixed;
+                top: 10px;
+                right: 128px;
+
+            }
+
+            .images:hover{
+                box-shadow: 0 1px 4px 0 grey;
+                border-color: white;
+                color: black;
+            }
+
+            .advance:hover{
+                box-shadow: 0 1px 4px 0 grey;
+                border-color: white;
+                color: black;
+            }
+
+
+            .color{
+                background-color: rgb(255, 255, 255);
+            }
+
+
+            </style>
+
+    </head>
+    <body class="color">
+
+
+        <div>
+            <center class="logo">
+                <img src="google_logo.png" alt="google" height="125px">
+            </center>
+        </div>
+
+
+
+        <div>
+            <center class="box">
+              <form>
+                  <input type="text" name="q" class="search">
+                  <div>
+                    <center class="center">
+                        <input type="submit" formaction="https://www.google.com/search" name="btnK" value="Google Search" class="button">
+                        <input type="submit" formaction="https://www.google.com/search" name="btnI" value="I'm Feeling Lucky" class="button">
+                    </center>
+                </div>
+              </form> 
+            </center>
+         
+        </div>
+
+
+
+
+
+
+
+        <div class="topright">
+            <div class="images">
+                <u>
+                    <a href="google_images.html">Google Images</a>
+                </u>
+                
+            </div>
+
+
+
+            <div class="advance">
+                <u>
+                    <a href="advance.html">Advanced Search</a>
+                </u>
+            </div>
+
+
+        </div>
+    </body>
+
+</html>

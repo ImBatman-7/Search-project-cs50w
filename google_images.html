@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Images</title>
+    <style>
+        .small{
+            width: 500px;
+            height: 180px;
+            margin: auto;
+            margin-top: 124px;
+            
+        }
+       
+
+        .logo{
+          padding: 52px;
+            
+        }
+
+        .png{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+        .search{
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            height: 39px;
+            width: 582px;
+            border-radius: 25px;
+            padding-right: 12px;
+            border: solid #cccccc;
+            border-width: thin;
+            
+        }
+
+        .search:hover{
+            box-shadow: 0 1px 4px 0 grey;
+            border-color: white;
+            outline: none;
+        }
+
+        .box:focus{
+                box-shadow: 0 1px 4px 0 grey;
+                border-color: white;
+                border: none;
+                outline:none;
+            }    
+
+
+        .search:focus{
+            outline: none;
+        }    
+
+        
+
+
+
+        .center{
+                padding-top: 14px;
+            }
+
+
+            
+        .button{
+                 border: none;
+                 border-radius: 4px;
+                 padding: 0 12px;
+                 font-family: Arial, sans-serif;
+                 color: rgb(99, 94, 94);
+                 font-size: 14px;
+                 cursor: pointer;
+                 text-align: center;
+                 margin: 11px 4px;
+                 height: 36px;
+                 line-height: 2px;
+                 min-width: 54px;
+                 
+            }     
+
+
+        .button:hover{
+            box-shadow: 0 1px 4px 0 grey;
+            color: black;
+            border-color: white;
+        }   
+
+        .button:focus{
+            outline: none;
+        } 
+
+        .link{
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }       
+
+
+        .home:hover{
+            box-shadow: 0 1px 4px 0 grey;
+            border-color: white;
+            color: black;
+        }
+
+        .center:focus{
+            outline: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="small">
+        <center class="logo">
+            <img src="googleimg.png" alt="Google Images" height="97px">
+        </center>
+    </div>
+
+    <div>
+        <center>
+            <form> 
+                <input type="text" name="q" class="search">
+                <div class="center">
+                    <center>
+                        <input type="submit" formaction="https://images.google.com/images" value="Google Image Search" class="button" >
+                       
+                    </center>
+                </div>
+            </form>
+        </center>
+    </div>
+
+
+
+    <div class="link">
+        <u>
+            <a href="google.html" class="home">go back to home page</a>
+        </u>
+    </div>
+
+</body>
+
+
+</html>
